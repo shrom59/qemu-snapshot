@@ -11,6 +11,8 @@ This how the script works :
 
 Shutdown the Vms normally using "virsh shutdown" command (prefixed by sudo in my case). It will loop evry 5 second until the VM is not down.
 Find the xml file used by libvirt and create a dump of it
+
+
 Find all the disk of this Vms and store it into an array.
 Create a snapshots of each disks.
 Convert the disk into the destination file, this tricks will thrink the disk. By default a thin provissionning is used when a virtual disk is created. This way only the real used space will be stored
