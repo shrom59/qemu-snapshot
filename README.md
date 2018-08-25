@@ -10,6 +10,7 @@ I'm using sudo in my linux environnement, so you can just remove the "sudo" stri
 This how the script works :
 
 Shutdown the Vms normally using "virsh shutdown" command (prefixed by sudo in my case). It will loop evry 5 second until the VM is not down.
+
 Find the xml file used by libvirt and create a dump of it
 
 
