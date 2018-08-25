@@ -13,8 +13,10 @@ Shutdown the Vms normally using "virsh shutdown" command (prefixed by sudo in my
 
 Find the xml file used by libvirt and create a dump of it
 
-
 Find all the disk of this Vms and store it into an array.
+
 Create a snapshots of each disks.
-Convert the disk into the destination file, this tricks will thrink the disk. By default a thin provissionning is used when a virtual disk is created. This way only the real used space will be stored
+
+Convert the disk into the destination file, this tricks will thrink the disk. By default a thin provissionning is used when a virtual disk is created. This way only the real used space will be stored.
+
 Delete the snapshot.
